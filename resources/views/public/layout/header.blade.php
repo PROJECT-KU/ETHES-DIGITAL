@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!--================== FAVICON ==================-->
-    <link href="{{ asset('publict/assets/logo/favicon.png') }}" rel="icon">
-    <link href="{{ asset('publict/assets/logo/favicon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('global/assets/logo/favicon.png') }}" rel="icon">
+    <link href="{{ asset('global/assets/logo/favicon.png') }}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -19,14 +19,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('publict/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('publict/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('publict/assets/vendor/aos/aos.css') }}" rel="stylesheet">
-    <link href="{{ asset('publict/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('publict/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('global/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('global/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('global/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('global/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('global/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="{{ asset('publict/assets/css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('global/assets/css/main.css') }}" rel="stylesheet">
 
     <!-- sweet alert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -52,58 +52,32 @@
         <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
             <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-                <img src="{{ asset('publict/assets/logo/logo_header.png') }}" alt="Hero Image" class="img-fluid">
+                <img src="{{ asset('global/assets/logo/logo_header.png') }}" alt="Hero Image" class="img-fluid">
             </a>
 
             <nav id="navmenu" class="navmenu">
-                <ul style="justify-content: center; align-items: center; gap: 16px;" class="d-flex list-unstyled mb-0">
-                    <!-- Beranda -->
+                <ul>
                     <li>
                         <a href="{{ route('home') }}" class="{{ Request::is('/') ? 'active' : '' }}">
                             Beranda
                         </a>
                     </li>
-
-                    <!-- Promo -->
                     <li style="background-color: #fbc02d; border-radius: 6px;">
                         <a href="{{ url('/#pricing') }}"
                             style="font-weight: bold; color: #000; padding: 8px 12px; display: inline-block; text-align: center;">
                             Promo Hari Ini!
                         </a>
                     </li>
-
-                    <!-- Jasa Website -->
                     <li>
                         <a href="{{ route('jasawebsite') }}" class="{{ Request::is('jasa-website') ? 'active' : '' }}">
                             Jasa Website
                         </a>
                     </li>
-
-                    <!-- Kontak -->
                     <li>
                         <a href="{{ url('/#contact') }}">
                             Kontak
                         </a>
                     </li>
-
-                    <!-- dropdown -->
-                    <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li> -->
                 </ul>
 
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -123,7 +97,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
                     <a href="index.html" class="logo d-flex align-items-center">
-                        <img src="{{ asset('publict/assets/logo/logo_header.png') }}" alt="Hero Image" class="img-fluid">
+                        <img src="{{ asset('global/assets/logo/logo_header.png') }}" alt="Hero Image" class="img-fluid">
                     </a>
                     <div class="footer-contact pt-3">
                         <p><i class="bi bi-geo-alt"></i> Bangunkerto, Turi, Sleman, Yogyakarta</p>
@@ -201,19 +175,16 @@
     <!--================== JS ==================-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <!-- Template Main JS File -->
-    <script src="{{ asset('assets/artikel/js/main.js') }}"></script>
-
     <!-- Vendor JS Files -->
-    <script src="{{ asset('publict/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('publict/assets/vendor/php-email-form/validate.js') }}"></script>
-    <script src="{{ asset('publict/assets/vendor/aos/aos.js') }}"></script>
-    <script src="{{ asset('publict/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
-    <script src="{{ asset('publict/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('publict/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+    <script src="{{ asset('global/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('global/assets/vendor/php-email-form/validate.js') }}"></script>
+    <script src="{{ asset('global/assets/vendor/aos/aos.js') }}"></script>
+    <script src="{{ asset('global/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('global/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('global/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
 
     <!-- Main JS File -->
-    <script src="{{ asset('publict/assets/js/main.js') }}"></script>
+    <script src="{{ asset('global/assets/js/main.js') }}"></script>
     <!--================== END ==================-->
 
 </body>

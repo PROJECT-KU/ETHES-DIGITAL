@@ -35,16 +35,16 @@ Jasa Website | Ethes Digital
 
                 <div class="col-lg-6">
                     <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-                        <img src="{{ asset('publict/assets/img/ilustrasi/jasaweb.png') }}" alt="Ilustrasi Jasa Pembuatan Website" class="img-fluid">
+                        <img src="{{ asset('global/assets/img/ilustrasi/jasaweb.png') }}" alt="Ilustrasi Jasa Pembuatan Website" class="img-fluid">
 
                         <!-- Testimoni Pelanggan -->
                         <div class="customers-badge">
                             <div class="customer-avatars">
-                                <img src="{{ asset('publict/assets/img/avatar-1.webp') }}" alt="Pelanggan 1" class="avatar">
-                                <img src="{{ asset('publict/assets/img/avatar-2.webp') }}" alt="Pelanggan 2" class="avatar">
-                                <img src="{{ asset('publict/assets/img/avatar-3.webp') }}" alt="Pelanggan 3" class="avatar">
-                                <img src="{{ asset('publict/assets/img/avatar-4.webp') }}" alt="Pelanggan 4" class="avatar">
-                                <img src="{{ asset('publict/assets/img/avatar-5.webp') }}" alt="Pelanggan 5" class="avatar">
+                                <img src="{{ asset('global/assets/img/avatar-1.webp') }}" alt="Pelanggan 1" class="avatar">
+                                <img src="{{ asset('global/assets/img/avatar-2.webp') }}" alt="Pelanggan 2" class="avatar">
+                                <img src="{{ asset('global/assets/img/avatar-3.webp') }}" alt="Pelanggan 3" class="avatar">
+                                <img src="{{ asset('global/assets/img/avatar-4.webp') }}" alt="Pelanggan 4" class="avatar">
+                                <img src="{{ asset('global/assets/img/avatar-5.webp') }}" alt="Pelanggan 5" class="avatar">
                                 <span class="avatar more">500+</span>
                             </div>
                             <p class="mb-0 mt-2">
@@ -313,8 +313,8 @@ Jasa Website | Ethes Digital
                 <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="image-wrapper">
                         <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-                            <img src="{{ asset('publict/assets/img/ilustrasi/mengapamemilihkami.png') }}" alt="Business Meeting" class="img-fluid main-image rounded-4">
-                            <img src="{{ asset('publict/assets/img/ilustrasi/mengapamemilihkami2.png') }}" alt="Team Discussion" class="img-fluid small-image rounded-4">
+                            <img src="{{ asset('global/assets/img/ilustrasi/mengapamemilihkami.png') }}" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                            <img src="{{ asset('global/assets/img/ilustrasi/mengapamemilihkami2.png') }}" alt="Team Discussion" class="img-fluid small-image rounded-4">
                         </div>
                         <div class="experience-badge floating">
                             <h3>15+ <span>Tahun</span></h3>
@@ -376,7 +376,7 @@ Jasa Website | Ethes Digital
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="{{ asset('publict/assets/img/features-illustration-1.webp') }}" alt="Desain Profesional" class="img-fluid">
+                            <img src="{{ asset('global/assets/img/features-illustration-1.webp') }}" alt="Desain Profesional" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -396,7 +396,7 @@ Jasa Website | Ethes Digital
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="{{ asset('publict/assets/img/features-illustration-2.webp') }}" alt="Dukungan Pelanggan" class="img-fluid">
+                            <img src="{{ asset('global/assets/img/features-illustration-2.webp') }}" alt="Dukungan Pelanggan" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -416,7 +416,7 @@ Jasa Website | Ethes Digital
                             </p>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="{{ asset('publict/assets/img/features-illustration-3.webp') }}" alt="Keamanan & Garansi" class="img-fluid">
+                            <img src="{{ asset('global/assets/img/features-illustration-3.webp') }}" alt="Keamanan & Garansi" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -522,7 +522,7 @@ Jasa Website | Ethes Digital
                 <!-- Mockup Tengah -->
                 <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="phone-mockup text-center">
-                        <img src="{{ asset('publict/assets/img/phone-app-screen.webp') }}" alt="Mockup Aplikasi" class="img-fluid">
+                        <img src="{{ asset('global/assets/img/phone-app-screen.webp') }}" alt="Mockup Aplikasi" class="img-fluid">
                     </div>
                 </div>
 
@@ -698,14 +698,14 @@ Jasa Website | Ethes Digital
                     }
                 </script>
                 <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/rsc.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-2.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-3.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-4.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-5.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-6.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-7.png') }}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{ asset('publict/assets/img/clients/client-8.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/rsc.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-2.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-3.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-4.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-5.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-6.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-7.png') }}" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="{{ asset('global/assets/img/clients/client-8.png') }}" class="img-fluid" alt=""></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -794,7 +794,7 @@ Jasa Website | Ethes Digital
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="testimonial-item">
-                        <img src="{{ asset('publict/assets/img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
+                        <img src="{{ asset('global/assets/img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
                         <h3>Saul Goodman</h3>
                         <h4>Ceo &amp; Founder</h4>
                         <div class="stars">
@@ -810,7 +810,7 @@ Jasa Website | Ethes Digital
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="testimonial-item">
-                        <img src="{{ asset('publict/assets/img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
+                        <img src="{{ asset('global/assets/img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
                         <div class="stars">
@@ -826,7 +826,7 @@ Jasa Website | Ethes Digital
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="testimonial-item">
-                        <img src="{{ asset('publict/assets/img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
+                        <img src="{{ asset('global/assets/img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
                         <div class="stars">
@@ -842,7 +842,7 @@ Jasa Website | Ethes Digital
 
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="testimonial-item">
-                        <img src="{{ asset('publict/assets/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
+                        <img src="{{ asset('global/assets/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
                         <div class="stars">
